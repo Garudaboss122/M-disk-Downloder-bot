@@ -32,15 +32,17 @@ ban = os.environ.get("BAN", "")
 def echo(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
 
     if not checkuser(message):
-        app.send_message(message.chat.id, '🏅 Gold Plan 🏅 
+        app.send_message(message.chat.id, '
 
-Buy Premium And Download MDisk Link Without MX Player
 
-Direct Download 😍 just Send /Mdisk Command And Link
 
-Price :- 59₹ inr  
 
-For Buy  Subscription Send Massage  To Admin @PROFE07XH',reply_to_message_id=message.id,reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("📦 59 Donate$ 📦", url="https://t.me/PROFE07XH")]]))
+
+               
+               
+ 
+
+',reply_to_message_id=message.id,reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("📦 59 Donate$ 📦", url="https://t.me/PROFE07XH")]]))
         return
 
     app.send_message(message.chat.id, '**Hi, I am Mdisk Video Downloader, you can watch Videos without MX Player.\n__Send me a link to Start...__**',reply_to_message_id=message.id,
